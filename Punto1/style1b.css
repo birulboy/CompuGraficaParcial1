@@ -31,9 +31,9 @@ header .Corto {
     
 }
 main {
-   height: 80%;
-   width: 70%;
-   display: flex;
+    height: 80%;
+    width: 70%;
+    display: flex;
 }
 
 #Section1 {
@@ -90,13 +90,12 @@ main {
 }
 
 .TextoGrande{
-
- height: 20%;
+    height: 20%;
 }
 
 .Uno{
-  background-color: rgb(225, 114, 116);
-  width:90%
+    background-color: rgb(225, 114, 116);
+    width:90%
 }
 
 .Dos{
