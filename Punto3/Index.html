@@ -7,48 +7,50 @@
     <title>The Money App</title>
 </head>
 <body>
-    <header></header>
     <main>
         <aside>
-            <div id="Aside-Header">Lets Make Some Money <span>$$$</span></div>
+            <div id="Aside-Header"> <span>💰</span> Money Maker</div>
             </div>
             <div id="Aside-Body">
-                <div class="Aside-Option"><a href="#">Inicio 🏠</a></div>
-                <div class="Aside-Option"><a href="#">Ingresos 📈</a></div>
-                <div class="Aside-Option"><a href="#">Gastos 📉</a></div>
-                <div class="Aside-Option"><a href="#">Reportes 📊</a></div>
+                <div class="Aside-Option Activo"><a href="#">🏠 Inicio</a></div>
+                <div class="Aside-Option"><a href="#">📈 Ingresos</a></div>
+                <div class="Aside-Option"><a href="#">📉 Gastos</a></div>
+                <div class="Aside-Option"><a href="#">📊 Reportes</a></div>
             </div>
             <div id="Account-Info">
                 <div class="Account Foto"> AD </div>
                 <div class="Account Nombre">Admin</div>
-                <div class="Back-To-Login"><a href="Login.html">Cerrar Sesión</a></div>
+                <a class="Back-To-Login"href="Login.html">⬅</a>
             </div>
         </aside>
         <section id="Information-Section">
             <div id="Information-Header">
-
+                <h1>Panel De Control</h1>
+                <p>Resumen Financiero del mes</p>
+                <hr>
+                <p class="Titulo">RESUMEN DEL MES</p>
             </div>
             <div id="Information-Body">
                 <div class="Cards">
-                    <div class="Saldo-Total">
+                    <div class="Saldo-Total Carta">
                         <h2>Saldo Total</h2>
-                        <p>$5000</p>
-                        <p class="Verde">⬆️ 12%  <span>VS mes anterior</span></p>
+                        <p class="Monto Verde">$5000</p>
+                        <span class="Verde">⬆️ 12% </span> <span>VS mes anterior</span>
 
                     </div>
-                    <div class="Ingresos">
+                    <div class="Ingresos Carta">
                         <h2>Ingresos</h2>
-                        <p>$3000</p>
-                        <p class="Verde"> ⬆️ 8%  <span>VS mes anterior</span></p>
+                        <p class="Monto Azul">$3000</p>
+                        <span class="Verde"> ⬆️ 8% </span> <span>VS mes anterior</span>
                     </div>
-                    <div class="Gastos">
+                    <div class="Gastos Carta">
                         <h2>Gastos</h2>
-                        <p>$2000</p>
-                        <p class="Rojo">⬆️ 5%  <span>VS mes anterior</span></p>
+                        <p class="Monto Rojo">$2000</p>
+                        <span class="Rojo">⬆️ 5% </span><span>VS mes anterior</span>
                     </div>
 
                 </div>
-                <div id="Information">
+                <div id="Dates">
                     <div id="Transacciones">
                           <h1>Transacciones Recientes</h1>
                           <table>
@@ -91,12 +93,12 @@
                             </table>
                     
                     </div>   
-                    <div id="Gastos por Categoria"> 
+                    <div id="Gastos-Por-Categoria"> 
                         <h1>Gastos por Categoría</h1>
                         <div class="Gasto">
                             <div class="Gasto-Info">
-                            <div class="Circulo" style="background-color: red;"></div>
-                            Vivienda
+                                <div class="Circulo" style="background-color: red;"></div>
+                                Vivienda
                             </div>
                             <div class="Porcentaje">
                                 40%
@@ -115,8 +117,8 @@
                         </div>
                         <div class="Gasto">
                             <div class="Gasto-Info">
-                            <div class="Circulo" style="background-color: yellow;"></div>
-                            Transporte
+                                <div class="Circulo" style="background-color: yellow;"></div>
+                                Transporte
                             </div>
                             <div class="Porcentaje">
                                 20%
