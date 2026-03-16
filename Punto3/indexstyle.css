@@ -223,6 +223,10 @@ table{
     justify-content: space-between;
 }
 
+.Gasto-Info{
+    display: flex;
+}
+
 .Porcentaje{
     display: flex;
     flex-direction: row;
@@ -263,8 +267,4 @@ html {
     height: 12px;
     border-radius: 50%;
     flex-shrink: 0;
-}
-
-.Gasto-Info{
-    display: flex;
 }
