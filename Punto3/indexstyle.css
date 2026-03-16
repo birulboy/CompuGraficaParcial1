@@ -2,14 +2,10 @@ body {
     padding: 0;
     margin: 0;
     gap: 0;
-}
-
-main {
     display: grid;
     grid-template-columns: 1fr 6fr;
     box-sizing: border-box;
 }
-
 
 aside {
     background-color: rgba(46, 100, 59, 0.686);
@@ -101,7 +97,7 @@ aside {
 }
 
 
-section {
+main {
     background-color:rgb(241, 245, 248);
     padding: 20px;
     grid-column: 2/3;
